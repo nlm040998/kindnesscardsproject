@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Roboto", Arial, serif;
   line-height: 1.8;
@@ -45,12 +40,22 @@ p, ul, ol {
   font-family: "Roboto", Arial, serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   color: #212121;
   font-family: "Roboto", Arial, serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
+
+h3 {
+  color: #DA70D6;
+  margin-left: 110px;
+  margin-top: 100px;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  position:absolute;
+}
+
 
 figure {
   margin-bottom: 2em;
@@ -74,6 +79,7 @@ figure {
 #header {
   padding-top: 40px;
   margin-bottom: 30px;
+  display: inline-block;
 }
 #header #logo img {
   max-width: 100%;
@@ -114,6 +120,18 @@ figure {
   color: black !important;
 }
 
+#header-social {
+  padding: 20px;
+  font-size: 50px;
+  position:absolute;
+  margin-left: 900px;
+  margin-top: 50px;
+}
+
+#top-line {
+  display: inline-block;
+}
+
 .projects-feed, .footer-content {
   margin: 0 auto;
   max-width: 1400px;
@@ -121,7 +139,6 @@ figure {
 
 .projects-feed .project {
   float: left;
-  margin: 10px 20px 20px;
   width: 290px;
 }
 @media screen and (max-width: 480px) {
@@ -135,7 +152,7 @@ figure {
 }
 .projects-feed .project > a img {
   margin-bottom: 30px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 .projects-feed .project > a h2 {
   font-size: 14px;
