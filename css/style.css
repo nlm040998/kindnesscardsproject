@@ -49,11 +49,10 @@ h1, h2, h4, h5, h6 {
 
 h3 {
   color: #DA70D6;
-  margin-left: 110px;
-  margin-top: 100px;
   font-family: "Georgia", serif;
   font-style: italic;
-  position:absolute;
+  text-align: center;
+  display: inline-block;
 }
 
 
@@ -77,9 +76,8 @@ figure {
 }
 
 #header {
-  padding-top: 40px;
-  margin-bottom: 30px;
-  display: inline-block;
+  float: left;
+  position: absolute;
 }
 #header #logo img {
   max-width: 100%;
@@ -120,14 +118,17 @@ figure {
   color: black !important;
 }
 
-#header-social {
-  padding: 20px;
+.icon-facebook3 {
+  
   font-size: 50px;
-  position:absolute;
-  margin-left: 900px;
-  margin-top: 50px;
+  float: right;
 }
 
+.icon-instagram2 {
+  
+  font-size: 50px;
+  float: right;
+}
 
 .projects-feed, .footer-content {
   margin: 0 auto;
