@@ -55,7 +55,10 @@ h3 {
   display: inline-block;
 }
 
-
+#logo {
+  position: absolute;
+  
+}
 figure {
   margin-bottom: 2em;
 }
@@ -78,9 +81,6 @@ figure {
 #header {
   float: left;
   position: absolute;
-}
-#header #logo img {
-  max-width: 100%;
 }
 #header nav {
   padding-top: 20px;
